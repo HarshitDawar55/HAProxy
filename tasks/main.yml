@@ -9,6 +9,7 @@
   template:
     src: "haproxy.cfg"
     dest: "/etc/haproxy/haproxy.cfg"
+    mode: 0666
   notify: Restarting HAProxy Services
 
 - name: Start the services
