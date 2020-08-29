@@ -17,4 +17,3 @@
     name: "{{ software }}"
     state: started
     enabled: yes
-
